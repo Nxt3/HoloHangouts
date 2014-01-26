@@ -1,5 +1,4 @@
-HoloHangouts
-============
+![Alt text](http://i.imgur.com/MVONEAA.png "banner")
 
 This is an EvolveSMS theme. I've included the PSD (Photoshop) files for each bubble.
 
