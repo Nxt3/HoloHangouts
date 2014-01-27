@@ -39,7 +39,7 @@ limitations under the License.
     <color name="backgroundColor">#262626</color>
     
     <!-- Main theme color for various parts on the screen, more of these things will be added in the future -->
-	<color name="theme_color">#289dfc</color>
+	<color name="theme_color">#9933cc</color>
 
     <!-- include any other colors you may want to use in your layout below -->
 

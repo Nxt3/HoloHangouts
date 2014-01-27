@@ -17,8 +17,8 @@ limitations under the License.
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.inate.evolvesms.theme.holohangouts"
-          android:versionCode="120"
-          android:versionName="1.2">
+          android:versionCode="121"
+          android:versionName="1.2.1">
 
     <uses-sdk android:minSdkVersion="14"
               android:targetSdkVersion="19"/>
@@ -61,7 +61,7 @@ limitations under the License.
         <!-- Can be true or false, true means that the message box should stretch from one side of the screen to the other -->
         <!-- false means that the message boxes will be staggered when drawn with more padding on one side vs the other -->
         <meta-data android:name="evolve_theme_message_fill_width"
-                   android:value="true" />
+                   android:value="false" />
 
         <!-- Can be light, dark, or black, which defines the base theme you are building off of -->
         <meta-data android:name="evolve_theme_base"
