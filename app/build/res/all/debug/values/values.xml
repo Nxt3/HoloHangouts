@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="backgroundColor">#ff262626</color>
+    <color name="conversationTextColor">#ffffff</color>
+    <color name="dateColorReceived">#ffffff</color>
+    <color name="dateColorSent">#ffffff</color>
+    <color name="dividerColor">#00000000</color>
+    <color name="drawerBackground">#ff2d2d2d</color>
+    <color name="textColorReceived">#ffffff</color>
+    <color name="textColorSent">#000000</color>
+    <color name="theme_color">#ff000000</color>
+    <!-- From: file:/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">Holo_Hangouts</string>
+    <string name="font_family">sans-serif-condensed</string>
+
+</resources>
