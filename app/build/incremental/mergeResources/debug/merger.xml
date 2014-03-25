@@ -6,25 +6,27 @@
             <file
                 path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/values/strings.xml"
                 qualifiers="" >
-                <string name="app_name" >Holo_Hangouts
-                </string>
-                <string name="font_family" >sans-serif-condensed
+                <string name="app_name" >HoloHangouts
                 </string>
             </file>
             <file
                 path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/values/colors.xml"
                 qualifiers="" >
+                <color name="messageEntryColor" >#ffffffff
+                </color>
                 <color name="conversationTextColor" >#ffffff
                 </color>
                 <color name="dateColorSent" >#ffffff
+                </color>
+                <color name="link_color" >#ff000000
                 </color>
                 <color name="textColorSent" >#000000
                 </color>
                 <color name="backgroundColor" >#ff262626
                 </color>
-                <color name="drawerBackground" >#ff2d2d2d
+                <color name="drawerBackground" >#ff000000
                 </color>
-                <color name="theme_color" >#ff000000
+                <color name="theme_color" >#ff4285f4
                 </color>
                 <color name="dateColorReceived" >#ffffff
                 </color>
@@ -49,6 +51,26 @@
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
+                name="apptheme_progress_bg_holo_dark"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xhdpi/apptheme_progress_bg_holo_dark.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="apptheme_progress_primary_holo_dark"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xhdpi/apptheme_progress_primary_holo_dark.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="actionbar"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xhdpi/actionbar.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="apptheme_progress_secondary_holo_dark"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xhdpi/apptheme_progress_secondary_holo_dark.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
                 name="apptheme_textfield_disabled_holo_dark"
                 path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xhdpi/apptheme_textfield_disabled_holo_dark.9.png"
                 qualifiers="xhdpi"
@@ -62,31 +84,6 @@
                 name="icon"
                 path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xhdpi/icon.png"
                 qualifiers="xhdpi"
-                type="drawable" />
-            <file
-                name="apptheme_textfield_activated_holo_dark"
-                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-mdpi/apptheme_textfield_activated_holo_dark.9.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="apptheme_textfield_focused_holo_dark"
-                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-mdpi/apptheme_textfield_focused_holo_dark.9.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="apptheme_textfield_disabled_focused_holo_dark"
-                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-mdpi/apptheme_textfield_disabled_focused_holo_dark.9.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="apptheme_textfield_disabled_holo_dark"
-                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-mdpi/apptheme_textfield_disabled_holo_dark.9.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="apptheme_textfield_default_holo_dark"
-                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-mdpi/apptheme_textfield_default_holo_dark.9.png"
-                qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="msg_bubble_selected_left"
@@ -114,8 +111,23 @@
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
+                name="error_msg_bubble_selected_right"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/error_msg_bubble_selected_right.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
                 name="locked_msg_bubble_left"
                 path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/locked_msg_bubble_left.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="delivered_msg_bubble_selected_right"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/delivered_msg_bubble_selected_right.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="apptheme_progress_bg_holo_dark"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/apptheme_progress_bg_holo_dark.9.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
@@ -129,8 +141,43 @@
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
+                name="locked_msg_bubble_selected_left"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/locked_msg_bubble_selected_left.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="apptheme_progress_primary_holo_dark"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/apptheme_progress_primary_holo_dark.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
                 name="delivered_msg_bubble_right"
                 path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/delivered_msg_bubble_right.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="sending_msg_bubble_selected_right"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/sending_msg_bubble_selected_right.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="apptheme_progress_secondary_holo_dark"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/apptheme_progress_secondary_holo_dark.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="locked_msg_bubble_selected_right"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/locked_msg_bubble_selected_right.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="dup_msg_bubble_left"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/dup_msg_bubble_left.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="dup_locked_msg_bubble_left"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/dup_locked_msg_bubble_left.9.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
@@ -141,6 +188,11 @@
             <file
                 name="apptheme_textfield_disabled_holo_dark"
                 path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/apptheme_textfield_disabled_holo_dark.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="dup_msg_bubble_selected_left"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/dup_msg_bubble_selected_left.9.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
@@ -156,6 +208,11 @@
             <file
                 name="apptheme_textfield_default_holo_dark"
                 path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/apptheme_textfield_default_holo_dark.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="dup_locked_selected_msg_bubble_left"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-xxhdpi/dup_locked_selected_msg_bubble_left.9.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
@@ -179,6 +236,21 @@
                 qualifiers="hdpi"
                 type="drawable" />
             <file
+                name="apptheme_progress_bg_holo_dark"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-hdpi/apptheme_progress_bg_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="apptheme_progress_primary_holo_dark"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-hdpi/apptheme_progress_primary_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="apptheme_progress_secondary_holo_dark"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-hdpi/apptheme_progress_secondary_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="apptheme_textfield_disabled_holo_dark"
                 path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable-hdpi/apptheme_textfield_disabled_holo_dark.9.png"
                 qualifiers="hdpi"
@@ -189,10 +261,25 @@
                 qualifiers="hdpi"
                 type="drawable" />
             <file
+                name="sent_animation"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/anim/sent_animation.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="received_animation"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/anim/received_animation.xml"
+                qualifiers=""
+                type="anim" />
+            <file
                 name="message"
                 path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/layout/message.xml"
                 qualifiers=""
                 type="layout" />
+            <file
+                name="progress_bar"
+                path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable/progress_bar.xml"
+                qualifiers=""
+                type="drawable" />
             <file
                 name="received_bubble"
                 path="/home/inate/code/AS_Projects/Evolve_HoloHangouts/app/src/main/res/drawable/received_bubble.xml"

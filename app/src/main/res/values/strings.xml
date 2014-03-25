@@ -18,10 +18,6 @@ limitations under the License.
 <resources>
 
     <!-- the name of your theme -->
-    <string name="app_name">Holo_Hangouts</string>
-    
-    <!-- font family to use in texts -->
-    <!-- Options include sans-serif, sans-serif-light, sans-serif-condensed, and sans-serif-thin -->
-    <string name="font_family">sans-serif-condensed</string>
+    <string name="app_name">HoloHangouts</string>
 
 </resources>

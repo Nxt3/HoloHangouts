@@ -18,9 +18,14 @@ limitations under the License.
 <!-- this is the default message layout, this will work fine for some themes, but others you will want to change positioning around -->
 <!-- or the padding on each item, ect. Just remember not to change any of the id's or remove any of the items or your theme will not work at all -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:orientation="vertical"
+				xmlns:tools="http://schemas.android.com/tools"
+				android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+				android:paddingRight="9dp"
+				android:paddingLeft="9dp"
+				android:paddingTop="1dp"
+				android:paddingBottom="1dp">
 
     <TextView
             android:id="@+id/date"
@@ -31,7 +36,9 @@ limitations under the License.
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
             android:textColor="@color/dateColorReceived"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+			android:paddingTop="1dp"
+			android:paddingBottom="1dp"/>
 
     <ImageView
             android:layout_width="0dp"
@@ -52,18 +59,19 @@ limitations under the License.
             android:layout_height="wrap_content"
             android:layout_below="@+id/date"
             android:id="@+id/holder"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp">
+			android:paddingTop="2dp"
+			android:paddingBottom="2dp">
 
         <ImageView
                 android:layout_width="0dp"
-                android:layout_height="48dp"
+                android:layout_height="0dp"
                 android:id="@+id/contactPicture"
                 android:scaleType="centerCrop"
                 android:maxHeight="48dp"
                 android:maxWidth="48dp"
                 android:minHeight="48dp"
-                android:minWidth="48dp"/>
+                android:minWidth="48dp"
+				tools:ignore="Suspicious0dp"/>
 
         <LinearLayout
                 android:id="@+id/background"
@@ -108,12 +116,17 @@ limitations under the License.
                     android:id="@+id/body"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="5dp"
-                    android:paddingRight="5dp"
+                    android:paddingLeft="7dp"
+					android:paddingRight="7dp"
+					android:paddingTop="5dp"
+					android:paddingBottom="5dp"
                     android:textSize="14sp"
+					android:gravity="center_vertical"
+					android:layout_gravity="center_vertical"
                     android:ellipsize="marquee"
                     android:fadingEdge="horizontal"
-                    android:textColor="@color/textColorReceived"/>
+                    android:textColor="@color/textColorReceived"
+					android:fontFamily="sans-serif-condensed"/>
 
         </LinearLayout>
     </LinearLayout>

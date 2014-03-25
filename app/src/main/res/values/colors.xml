@@ -27,7 +27,7 @@ limitations under the License.
     <color name="dateColorReceived">#ffffff</color>
 
     <!-- the color of the background for the drawer -->
-    <color name="drawerBackground">#ff2d2d2d</color>
+    <color name="drawerBackground">#ff000000</color>
 
     <!-- the color of the conversation drawer text -->
     <color name="conversationTextColor">#ffffff</color>
@@ -39,8 +39,14 @@ limitations under the License.
     <color name="backgroundColor">#ff262626</color>
     
     <!-- Main theme color for various parts on the screen, more of these things will be added in the future -->
-	<color name="theme_color">#ff000000</color>
+	<color name="theme_color">#ff4285f4</color>
 
-    <!-- include any other colors you may want to use in your layout below -->
+	<!-- the link color for any links in a message text -->
+	<color name="link_color">#ff000000</color>
+
+	<!-- the message entry color is for any message entry areas in the main window and the new message window -->
+	<color name="messageEntryColor">#ffffffff</color>
+
+	<!-- include any other colors you may want to use in your layout below -->
 
 </resources>
