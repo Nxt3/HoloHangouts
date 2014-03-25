@@ -8,4 +8,4 @@ That's all. Feel free to do whatever you want with it otherwise!
 
 *Note: for some reason, the 9patches get really messed up after exporing the images in Photoshop. You'll have to go in and manually fix the 9-patches; there isn't anything I can do about it, sorry!*
 
-![Alt text](http://i.imgur.com/SxgoAz1l.png "screenshot")
+![Alt text](http://i.imgur.com/pxPntT6l.png "screenshot")
